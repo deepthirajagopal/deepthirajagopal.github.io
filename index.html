@@ -1,459 +1,168 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-<meta name="apple-mobile-web-app-capable" content="yes">
-
-<title>Portfolio | Deepthi Rajagopal</title>
-
-<!-- ICONS -->
-<link rel="icon" type="image/png" href="../fevicon_dr.png" />
-
-
-<!-- FB OG TAGS -->
-<meta property="og:title" content="Portfolio | Deepthi Rajagopal" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://www.deepthir.com/" />
-<meta property="og:image" content="http://www.deepthir.com/images/deepthirajagopal.jpg" />
-
-<!-- GOOGLE ANALYTICS -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-60760203-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-<!-- SCRIPTS AND STYLES -->
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-<script type="text/javascript" src="js/jquery.flexslider.js"></script>
-<script type="text/javascript" src="js/jquery.lazyload.js"></script>
-<script defer type="text/javascript" src="js/mediaelement-and-player.min.js"></script>
-<script type="text/javascript" src="js/pav.js"></script>
-<link rel="stylesheet" href="css/dr.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Deepthi Rajagopal - Portfolio</title>
+    <meta name="description" content="Free Bootstrap Theme by uicookies.com">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles-merged.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.min.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
 </head>
 
 <body>
 
-    <!-- Preloader -->
-    <div id="preloader">
-        <div id="status">&nbsp;</div>
+    <!-- START: header -->
+
+    <div class="probootstrap-loader"></div>
+
+    <header role="banner" class="probootstrap-header">
+        <div class="container">
+            <a href="index.html" class="probootstrap-logo">Deepthi Rajagopal<span>.</span></a>
+
+            <a href="#" class="probootstrap-burger-menu visible-xs"><i>Menu</i></a>
+            <div class="mobile-menu-overlay"></div>
+
+            <nav role="navigation" class="probootstrap-nav hidden-xs">
+                <ul class="probootstrap-main-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="images/Resume.pdf" target="_blank">Resume</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+    <!-- END: header -->
+
+    <div class="probootstrap-section">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 mb40">
+                    <h2>I'm an UX Designer</h2>
+
+                    <p>With a background in Human Computer Interaction &amp; Design, I have experience across varied disciplines of design — Web Design, Mobile Design, Product Design.
+
+                        I am passionate about designing experiences that are delightful, and making design decisions that are informed by user research and analysis. If you work on healthcare, child-computer interactions and learning languages then you got me all curious.</p>
+                </div>
+            </div>
+
+            <div class="row probootstrap-gutter16">
+                <div class="col-md-4 probootstrap-animate" data-animate-effect="fadeIn">
+                    <a href="ekstep.html" class="img-bg">
+                        <img src="images/ekstep_cover.jpg" alt="Ekstep">
+                        <div class="probootstrap-photo-details">
+                            <h2>Ekstep Genie App</h2>
+                            <p> Child literacy, Mobile App, UI/UX Design</p>
+
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 probootstrap-animate" data-animate-effect="fadeIn">
+                    <a href="WebUI.html" class="img-bg" style="background-image: url(img/img_2.jpg);">
+                        <img src="images/cover_moto.jpg" alt="Motorola">
+                        <div class="probootstrap-photo-details">
+                            <h2>Product Website</h2>
+                            <p>UI Design, Website interface, Visual Design</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 probootstrap-animate" data-animate-effect="fadeIn">
+                    <a href="MIT_DI.html" class="img-bg" style="background-image: url(img/img_2.jpg);">
+                        <img src="images/cover_mit_di.jpg" alt="MIT DI">
+                        <div class="probootstrap-photo-details">
+                            <h2>Magical interface</h2>
+                            <p>Fluid interfaces, Design Innovation</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row probootstrap-gutter16">
+                <div class="col-md-4 probootstrap-animate" data-animate-effect="fadeIn">
+                    <a href="craft.html" class="img-bg" style="background-image: url(img/img_3.jpg);">
+                        <img src="images/craft_cover.jpg" alt="MIT">
+                        <div class="probootstrap-photo-details">
+                            <h2>Craft Documentation</h2>
+                            <p>Ethnographic Research, Field study</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 probootstrap-animate" data-animate-effect="fadeIn">
+                    <a href="uitheme.html" class="img-bg" style="background-image: url(img/img_5.jpg);">
+                        <img src="images/cover_ui.jpg" alt="ui">
+                        <div class="probootstrap-photo-details">
+                            <h2>Android themes</h2>
+                            <p>UI Design, Visual design</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 probootstrap-animate" data-animate-effect="fadeIn">
+                    <a href="designsystem.html" class="img-bg" style="background-image: url(img/img_4.jpg);">
+                        <img src="images/cover_mice_ds.jpg" alt="Ui">
+                        <div class="probootstrap-photo-details">
+                            <h2>Design system</h2>
+                            <p>Visual Design, Design library, UX Design</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!--<div class="row probootstrap-gutter16">
+                <div class="col-md-8 probootstrap-animate" data-animate-effect="fadeIn">
+                    <a href="single-page.html" class="img-bg" style="background-image: url(img/img_7.jpg);">
+                        <div class="probootstrap-photo-details">
+                            <h2>Mountains</h2>
+                            <p>Landscape</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 probootstrap-animate" data-animate-effect="fadeIn">
+                    <a href="single-page.html" class="img-bg" style="background-image: url(img/img_6.jpg);">
+                        <div class="probootstrap-photo-details">
+                            <h2>Beautiful Sunset</h2>
+                            <p>Landscape</p>
+                        </div>
+                    </a>
+                </div>
+            </div>-->
+
+        </div>
     </div>
 
-	<!-- PAV FRAME -->
-	<!--<div class="left"></div>-->
-    <!--<div class="right"></div>-->
-    <div class="bottom">
-        <div class="pav-name">
-            <a href="./index.html"> Portfolio | <span> DR</span></a>
-        </div>
-        <div class="menu-icon">
-        </div>
-        <div class="nav-next">
-        </div>
-        <div class="nav-prev">
-        </div>
-        <div class="share-icon">
-        </div>
-        <div class="mobile-share-set">
-            <div class="insta-icon"></div>
-            <div class="linked-icon"></div>
-            <div class="be-icon "></div>
-        </div>
-    </div>
-    <!-- <div class="top"></div> -->
-
-    <div class="navigation">
-        <div class="menu">
-        	<div class="get-in-touch">
-            	<strong>Get in touch</strong><br />
-                <a href="mailto: deepthi.nift@gmail.com" target="_blank">deepthi.nift@gmail.com</a><br />
-                <a href="https://www.instagram.com/_monobrowed/" target="_blank"> Instagram</a> / <a href="https://www.linkedin.com/in/dpgopal/" target="_blank"> LinkedIn</a> / <a href="https://www.behance.net/deepthi1992" target="_blank"> Behance</a>
+    <footer class="probootstrap-footer" role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!--<p class="probootstrap-copyright">&copy; 2017 <a href="https://uicookies.com/">uiCookies:Explorer</a> All Rights Reserved.</p>-->
+                    <p class="probootstrap-copyright">&copy; 2020 All Rights Reserved.</p>
+                    <ul class="probootstrap-social">
+                        <!--<li><a href="#"><i class="icon-twitter"></i></a></li>-->
+                        <li><a href="https://www.behance.net/deepthi1992" target="_blank"><i class="icon-behance"></i></a></li>
+                        <li><a href="https://www.instagram.com/deepthirajagopal/" target="_blank"><i class="icon-instagram2"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/dpgopal" target="_blank"><i class="icon-linkedin"></i></a></li>
+                    </ul>
+                </div>
             </div>
-            <ul>
-                <li><a href="https://drive.google.com/file/d/0B-mI7XMMsoVRTkFmLTVRdmhKdjQ/view?usp=sharing" target="_blank"><b>DOWNLOAD RESUME</b></a></li>
-                <li><a href="index.html"><b>PROJECTS</b></a></li>
-                <li>
-                <a href="ekstep/index.html">Ekstep Genie App</a>
-                <a href="FedPravasi/index.html">Fed Pravasi App</a>
-                <a href="travelislife/index.html">Travel &amp; life</a>
-                <a href="wpap/index.html">Wpap art</a>
-                <a href="designinnovation/index.html">Design Innovation</a>
-                <a href="ui-themes/index.html">UI theme</a>
-                <a href="printgame/index.html">Print game</a>
-                <a href="myntra/index.html">Myntra Shopping Assistant</a>
-                <a href="web-design/index.html">Motorola Website</a>
-                <a href="travelapp/index.html">Travel App</a>
-                <a href="drawing/index.html">Drawing &amp; Sketching</a>
-                <a href="prahar/index.html">Craft research and documentation</a>
-
-                </li>
-            </ul>
         </div>
+    </footer>
+
+    <div class="gototop js-top">
+        <a href="#" class="js-gotop"><i class="icon-chevron-thin-up"></i></a>
     </div>
 
-	<div class="site-wrapper">
 
-<div class="flexslider">
-	<ul class="slides">
-        <li>
-            <div class="cover-bg" >
-            	<div class="site-info">
+    <script src="js/scripts.min.js"></script>
+    <script src="js/main.min.js"></script>
+    <script src="js/custom.js"></script>
 
-                    <div class="site-title">
-                        Hi, I am Deepthi
-                    </div>
-                    <div class="site-description">
-                    UX Designer with an eye for detail and passion for research
-                    </div>
-
-                    <div class="site-button">
-                        View projects
-                    </div>
-                    <div class="resume-button">
-                        View Resume
-                    </div>
-                </div>
-            </div>
-            <img src="images/altimage.jpg" alt="Deepthi Rajagopal" />
-        </li>
-
-
-        <li>
-            <div class="cover-bg" style="background-image:url('images/ekstep_cover.jpg');">
-                <div class="site-info0">
-                	<div class="m-content">
-                    	<a href="ekstep/index.html"><img src="images/ekstep_cover.jpg" alt="press herald"></a>
-                    </div>
-                    <div class="site-title0">
-                        UX, UI &amp; IA
-                    </div>
-                    <div class="site-description">
-                        UX Design
-                    </div>
-                    <div class="desktop site-memo">
-                        An intitative to promote creative learning for Kids.
-                    </div>
-                   <div class="view-project-blackbutton page-transition"><a href="ekstep/index.html">View Project</a></div>
-                   <div class="site-button0 no-mobile site-button">
-                        Next Project &#8594;
-                    </div>
-
-                </div>
-            </div>
-            <img src="images/altimage.jpg" alt="pressherald" />
-        </li>
-
-        <li>
-            <div class="cover-bg" style="background-image:url('images/fed_01.jpg');">
-                <div class="site-info0">
-                    <div class="m-content">
-                        <a href="FedPravasi/index.html"><img src="images/fed_01.jpg" alt="press herald"></a>
-                    </div>
-                    <div class="site-title0">
-                        DESIGN, BUSINESS &amp; MARKETING
-                    </div>
-                    <div class="site-description">
-                        Design - Business proposal
-                    </div>
-                    <div class="desktop site-memo">
-                         Achieving digital transformation projects with design &amp; business.
-                    </div>
-                   <div class="view-project-blackbutton page-transition"><a href="FedPravasi/index.html">View Project</a></div>
-                   <div class="site-button0 no-mobile site-button">
-                        Next Project &#8594;
-                    </div>
-
-                </div>
-            </div>
-            <img src="images/altimage.jpg" alt="pressherald" />
-        </li>
-
-        <li>
-            <div class="cover-bg" style="background-image:url('images/turtle.jpg');">
-                <div class="site-info">
-                	<div class="m-content">
-                    	<a href="travelislife/index.html"><img src="images/turtle.jpg" alt="turtle"></a>
-                    </div>
-                    <div class="site-title">
-                        Travel &amp; Life
-                    </div>
-                    <div class="site-description">
-                        Travel, food and life
-                    </div>
-                    <div class="desktop site-memo">
-                    About my hunger to explore, photograph and mix with cultures around the world
-                    </div>
-                   <div class="view-project-button page-transition"><a href="travelislife/index.html">View Project</a></div>
-                   <div class="site-button no-mobile">
-                        Next Project &#8594;
-                    </div>
-                </div>
-            </div>
-            <img src="images/altimage.jpg" alt="black" />
-        </li>
-
-        <li>
-            <div class="cover-bg" style="background-image:url('images/wpap_art.jpg');">
-                <div class="site-info">
-                	<div class="m-content">
-                    	<a href="wpap/index.html"><img src="images/wpap_art.jpg" alt="press herald"></a>
-                    </div>
-                    <div class="site-title">
-                        ART, DESIGN &amp; ILLUSTRATION
-                    </div>
-                    <div class="site-description">
-                        Graphic Design
-                    </div>
-                    <div class="desktop site-memo">
-                        An art of straight lines, polygons, <br /> vibrant colors &amp; contrasting fills.
-                    </div>
-                   <div class="view-project-button page-transition"><a href="wpap/index.html">View Project</a></div>
-                   <div class="site-button no-mobile">
-                        Next Project &#8594;
-                    </div>
-
-                </div>
-            </div>
-            <img src="images/altimage.jpg" alt="pressherald" />
-        </li>
-
-        <li>
-            <div class="cover-bg" style="background-image:url('images/mit_di.jpg');">
-                <div class="site-info">
-                	<div class="m-content">
-                    	<a href="designinnovation/index.html"><img src="images/mit_di.jpg" alt="pbgf"></a>
-                    </div>
-                    <div class="site-title">
-                        Design Innovation
-                    </div>
-                    <div class="site-description">
-                        MIT Media Lab India Initiative 2014 - Sole Scorchers
-                    </div>
-                    <div class="desktop site-memo">
-                         Fun, Magic &amp; Illusion.
-                    </div>
-                    <div class="view-project-button page-transition"><a href="designinnovation/index.html">View Project</a></div>
-                    <div class="site-button no-mobile">
-                        Next Project &#8594;
-                    </div>
-                </div>
-            </div>
-            <img src="images/altimage.jpg" alt="deepthirajagopal" />
-        </li>
-
-        <li>
-            <div class="cover-bg" style="background-image:url('images/ui_cover.jpg');">
-                <div class="site-info">
-                	<div class="m-content">
-                    	<a href="ui-themes/index.html"><img src="images/ui_cover.jpg" alt="ux"></a>
-                    </div>
-                    <div class="site-title">
-                        LAVA INTERNATIONAL LTD.
-                    </div>
-                    <div class="site-description">
-                       Android UI Themes
-                    </div>
-                    <div class="desktop site-memo">
-                        UI Concept and interactions for XOLO Black
-                        Android Device with custom ROM HIVE.
-                    </div>
-                   <div class="view-project-button page-transition"><a href="ui-themes/index.html">View Work</a></div>
-                   <div class="site-button no-mobile">
-                        Next Project &#8594;
-                    </div>
-
-                </div>
-            </div>
-            <img src="images/altimage.jpg" alt="ux" />
-        </li>
-
-        <li>
-            <div class="cover-bg" style="background-image:url('images/print_game03.jpg');">
-                <div class="site-info">
-                	<div class="m-content">
-                    	<a href="printgame/index.html"><img src="images/print_game03.jpg" alt="challenge"></a>
-                    </div>
-                    <div class="site-title">
-                        LOWE LINTAS
-                    </div>
-                    <div class="site-description">
-                       Board Game for Kids
-                    </div>
-                    <div class="desktop site-memo">
-                       Promotional campaign for Britannia Biscuits.
-                    </div>
-
-                    <div class="view-project-button page-transition"><a href="printgame/index.html">View Project</a></div>
-                    <div class="site-button no-mobile">
-                        Next Project &#8594;
-                    </div>
-                </div>
-            </div>
-            <img src="images/altimage.jpg" alt="challenge" />
-        </li>
-
-        <li>
-            <div class="cover-bg" style="background-image:url('images/Myntra_cover.jpg');">
-                <div class="site-info">
-                	<div class="m-content">
-                    	<a href="myntra/index.html"><img src="images/Myntra_cover.jpg" alt="defender"></a>
-                    </div>
-                    <div class="site-title">
-                        User Experience
-                    </div>
-                    <div class="site-description">
-                        Myntra - Shopping Assistant
-                    </div>
-                    <div class="desktop site-memo">
-                        Enhancing the online purchase experience
-                    </div>
-                    <div class="view-project-button page-transition"><a href="myntra/index.html">View Project</a></div>
-                    <div class="site-button no-mobile">
-                        Next Project &#8594;
-                    </div>
-                </div>
-            </div>
-            <img src="images/altimage.jpg" alt="defender" />
-        </li>
-
-        <li>
-            <div class="cover-bg" style="background-image:url('images/cover_moto.jpg');">
-                <div class="site-info0">
-                	<div class="m-content">
-                    	<a href="web-design/index.html"><img src="images/cover_moto.jpg" alt="web-design"></a>
-                    </div>
-                    <div class="site-title0">
-                        Motorola Watches
-                    </div>
-                    <div class="site-description">
-                        Product Website
-                    </div>
-                    <div class="desktop site-memo">
-                         Redesigning the Motorola watches web experience.
-                    </div>
-                   <div class="view-project-blackbutton page-transition"><a href="web-design/index.html">View Work</a></div>
-                   <div class="site-button0 no-mobile site-button">
-                        Next Project &#8594;
-                    </div>
-
-                </div>
-            </div>
-            <img src="images/altimage.jpg" alt="illustration" />
-        </li>
-
-        <li>
-            <div class="cover-bg" style="background-image:url('images/travelapp_01.jpg');">
-                <div class="site-info">
-                	<div class="m-content">
-                    	<a href="travelapp/index.html"><img src="images/travelapp_01.jpg" alt="travelapp"></a>
-                    </div>
-                    <div class="site-title">
-                    UI/UX DESIGN
-                    </div>
-                    <div class="site-description">
-                    Mobile app
-                    </div>
-                    <div class="site-memo">
-                    Travel Guide
-                    </div>
-                  <div class="view-project-button page-transition"><a href="travelapp/index.html">View Project</a></div>
-                  <div class="site-button no-mobile">
-                        Next Project &#8594;
-                    </div>
-
-                </div>
-            </div>
-            <img src="images/altimage.jpg" alt="mainetoday" />
-        </li>
-
-        <li>
-            <div class="cover-bg" style="background-image:url('images/defender.jpg');">
-                <div class="site-info">
-                	<div class="m-content">
-                    	<a href="drawing/index.html"><img src="images/defender.jpg" alt="defender"></a>
-                    </div>
-                    <div class="site-title">
-                        Paper, pencil &amp; more
-                    </div>
-                    <div class="site-description">
-                        Drawing &amp; Sketching
-                    </div>
-                    <div class="desktop site-memo">
-                       Exploring sketching &amp; drawing mediums gives me joy from within. I have always enjoyed sketching and drawing with ink, pen, pencil, and others over sheets of paper. Here are few of my works expressing my leisure time love for sketching.
-                    </div>
-                    <div class="view-project-button page-transition"><a href="drawing/index.html">View Project</a></div>
-                    <div class="site-button no-mobile">
-                        Next Project &#8594;
-                    </div>
-                </div>
-            </div>
-            <img src="images/altimage.jpg" alt="defender" />
-        </li>
-
-        <li>
-            <div class="cover-bg" style="background-image:url('images/craft.jpg');">
-                <div class="site-info">
-                	<div class="m-content">
-                    	<a href="prahar/index.html"><img src="images/craft.jpg" alt="prahar"></a>
-                    </div>
-                    <div class="site-title">
-                       METAL CRAFT, CRAFTSMEN &amp; HISTORIC REFERENCES
-                    </div>
-                    <div class="site-description">
-                        Research Documentation
-                    </div>
-                    <div class="desktop site-memo">
-                        A documentation of the declining metal crafts from villages in Kullu valley region.
-                    </div>
-                    <div class="view-project-button page-transition"><a href="prahar/index.html">View Project</a></div>
-                    <div class="site-button no-mobile">
-                        Next Project &#8594;
-                    </div>
-                </div>
-            </div>
-            <img src="images/altimage.jpg" alt="prahar" />
-        </li>
-
-        <li><!-- Contact Info -->
-        	<div class="site-contact">
-            	<img src="images/dr_last.jpg" class="pvachon" alt="deepthirajagopal" />
-            	<h2> <a href="index.html" class="name-home"> DEEPTHI RAJAGOPAL </a> <span>2016</span></h2>
-            	<div class="view-project-button"><a href="mailto:deepthi.nift@gmail.com" target="_blank">SEND AN EMAIL</a></div>
-                <div class="view-project-button"> <a href="resume/index.html">VIEW RESUME</a></div>
-            </div>
-                <span class="cover-bg" style="background:#000;"></span>
-            <img src="images/altimage.jpg" alt="DR" />
-        </li>
-
-	</ul><!-- End flexslider -->
-        </div>
-
-    <div class="flexslider-controls outside">
-      <ol class="flex-control-nav">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-       <li></li>
-       <li></li>
-      </ol>
-    </div>
-	</div>
 </body>
+
 </html>
