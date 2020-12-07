@@ -1,1 +1,63 @@
 /* Your custom css code goes here */
+
+.tablecontent li {
+	list-style: none;
+}
+
+.tablecontent li a:active,
+.tablecontent li a:hover {
+	background-color: azure;
+}
+
+.wrapper {
+	display: flex;
+	Width: 60em;
+	/*    height: 80em;*/
+	flex-flow: wrap;
+	justify-content: flex-end;
+	position: relative;
+}
+
+/*nav {
+	position: relative;
+}*/
+
+.tablecontent {
+	flex: 0 1 20%;
+	position: fixed;
+	top: 15em;
+
+}
+
+.projectTitle h2 p {
+	flex: 0 1 100%;
+
+}
+
+# {
+	flex: 0 1 80%;
+}
+
+
+/*.show {
+    opacity: 0;
+}
+
+.show:hover {
+    display: block;
+    background-color: rgba(255, 255, 255, 1);
+}*/
+
+
+.affordance {
+	display: flex;
+	flex-flow: wrap;
+}
+
+.affordance h3 {
+	flex: 0 1 100%;
+}
+
+.affordance p {
+	flex: 0 1 50%;
+}
